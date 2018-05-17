@@ -1,0 +1,4 @@
+create database company;
+use company;
+create table employee(e_name varchar(10),id int,e_salary float,primary key(id));
+desc employee;
