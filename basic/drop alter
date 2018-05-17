@@ -1,0 +1,31 @@
+create database student;
+create database employee;
+create database production;
+use student;
+create table s1(
+f_name VARCHAR(10) NOT NULL,
+id INT
+);
+create table s2(
+name VARCHAR(10) NOT NULL,
+dept VARCHAR(10) NOT NULl);
+show tables;
+use employee;
+create table e1(
+e_name VARCHAR(10) NOT NULL,
+salary float(10)
+);
+use production;
+create table p1(
+p_id int,
+p_name varchar(10)
+);
+show tables;
+show databases;
+use student;
+drop table s2;
+show tables;
+use production;
+alter table p1 add column amt int;
+desc p1;
+
