@@ -1,0 +1,8 @@
+create database dd;
+use dd;
+create table student(id int,s_name varchar(10),dept varchar(10),primary key(id));
+insert into student values(5,'aaa','cse');
+insert into student values(4,'bbb','cse');
+select count(*) from student;
+select distinct(dept) from student;
+select distinct(id) from student;
