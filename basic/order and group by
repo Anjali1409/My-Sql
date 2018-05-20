@@ -1,0 +1,9 @@
+SELECT last_name, first_name FROM myfriends ORDER BY last_name;
+
+SELECT last_name, first_name FROM myfriends ORDER BY last_name desc;
+
+SELECT last_name, first_name, state FROM myfriends ORDER BY state DESC, last_name ASC;
+
+SELECT last_name, first_name, state FROM myfriends ORDER BY state DESC, last_name ASC LIMIT 2;
+
+SELECT COUNT(SEX) FROM myfriends GROUP BY SEX;
