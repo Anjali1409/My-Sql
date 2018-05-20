@@ -1,0 +1,2 @@
+select mf.first_name , pi.height , pi.weight , pi.lang , pi.fans from myfriends mf, personalinfo pi where mf.first_name = pi.first_name;select mf.first_name , pi.height , pi.weight , pi.lang , pi.fans from myfriends mf left join personalinfo pi on mf.first_name = pi.first_name;
+select mf.first_name , pi.height , pi.weight , pi.lang , pi.fans from myfriends mf right join personalinfo pi on mf.first_name = pi.first_name;
