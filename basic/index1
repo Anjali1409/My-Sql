@@ -1,0 +1,9 @@
+create table GUVI(id int,name varchar(20),age int);
+insert into GUVI values(1,'geetha',20);
+insert into GUVI values(2,'preetha',21);
+select * from GUVI;
+create view bio as select id,name from GUVI;
+select * from bio;
+create view aa as select * from GUVI where age=21;
+select * from aa;
+drop view aa;
