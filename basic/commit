@@ -1,0 +1,9 @@
+create table GUVI(id int,name varchar(20),age int);
+insert into GUVI values(1,'geetha',20);
+insert into GUVI values(2,'preetha',21);
+select * from GUVI;
+set autocommit=0;
+insert into GUVI values(3,'abarna',22);
+delete from GUVI where id=2;
+rollback;
+select * from GUVI;
