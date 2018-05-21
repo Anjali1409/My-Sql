@@ -1,0 +1,10 @@
+drop view LIMITED_EDITION;
+CREATE VIEW LIMITED_EDITION AS SELECT * from myfriends where sex = 'M';
+
+SELECT * FROM LIMITED_EDITION;
+ 
+INSERT INTO LIMITED_EDITION(last_name,first_name,suffix,sex,city,state,age) VALUES('Bali','Bahu','Amer','M','MahilMadi','MM',25);
+ 
+SELECT * FROM LIMITED_EDITION;
+ 
+UPDATE LIMITED_EDITION SET first_name='MUMMY' WHERE age =25;
