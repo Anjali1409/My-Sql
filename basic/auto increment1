@@ -1,0 +1,6 @@
+create database aa;
+use aa;
+create table Employee(ID int auto_increment,NAME varchar(15),AGE int,primary key(ID));
+insert into Employee (NAME,AGE) values('geetha',20);
+insert into Employee values('preetha',21);/*error*/
+select * from Employee;
